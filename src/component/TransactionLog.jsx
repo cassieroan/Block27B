@@ -7,8 +7,7 @@ const TransactionLog = () => {
   const [isOpen, setIsOpen] = useState(false); // State variable to track whether the log is open or closed
 
   const handleToggleDropdown = () => {
-    // ***TODO***
-     // Toggle the isOpen state value when the button is clicked
+    setIsOpen(!isOpen); // Toggle the isOpen state value when the button is clicked
   };
 
   return (
